@@ -1,0 +1,21 @@
+.footer {
+    background-color: #111; /* Dark background */
+    color: #ccc; /* Light grey text */
+    text-align: center; /* Center the text */
+    padding: 20px 0;
+    font-size: 14px; /* Text size */
+   
+  }
+  
+  .footer a {
+    color:blue; /* Link color */
+    text-decoration: none; /* No underline */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 0, 0.525);
+  }
+ 
+  
+ 
