@@ -1,40 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- 
-   
 }
-#Nav{
+
+#Nav {
     height: 15vh;
-    /* width:100%; */
-    /* background-color: red; */
-    
-   /* display: flex; */
-   align-items: center;
-   justify-content:center;
-   flex-wrap: wrap;
-   margin-top:30px;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 40px; /* ensures 40px space from the left */
 }
-#Nav>h1{
-     text-wrap: balance;
-     clear: both;
+
+#Nav > h1 {
     font-size: 2rem;
     font-weight: 400;
-    letter-spacing: -.4px;
+    letter-spacing: -0.4px;
     line-height: 1;
     color: white;
-    /* margin-top: 16px; */
-    /* font-family:sans-serif; */
-    margin-left: 60px;
-
+    margin-bottom: 8px;
+    text-align: left; /* aligns text to the left */
 }
-#Nav>p{
+
+#Nav > p {
     margin-top: 5px;
     font-size: 14px;
-    color:#A3A3A3;
-    /* font-family:sans-serif; */
-    margin-left: 60px;
+    color: #A3A3A3;
+    text-align: left; /* aligns paragraph to the left */
+    max-width: 600px; /* optional: controls paragraph width for readability */
+}
 
+/* Mobile responsive adjustments */
+@media (max-width: 600px) {
+    #Nav {
+        padding-left: 20px; /* reduces left padding on smaller screens */
+    }
+
+    #Nav > h1 {
+        font-size: 1.5rem; /* smaller font size for mobile screens */
+    }
+
+    #Nav > p {
+        font-size: 13px; /* slightly smaller text for mobile */
+        max-width: 100%; /* allows the paragraph to take full width on mobile */
+    }
 }
