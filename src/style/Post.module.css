@@ -95,27 +95,27 @@
   background-color: #444;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .box {
-    width: 80%; /* Make boxes wider on smaller screens */
-    padding: 15px; /* Reduce padding */
+    width: 80%; 
+    padding: 15px; 
   }
 }
 
 @media (max-width: 480px) {
   .wrapper {
-    padding: 10px; /* Reduce padding on very small screens */
+    padding: 10px; 
   }
   
   .box {
-    width: 100%; /* Full-width for mobile screens */
+    width: 100%; 
     margin-bottom: 15px;
     padding: 10px;
   }
 
   .meta {
-    flex-direction: column; /* Stack meta info vertically */
+    flex-direction: column; 
     gap: 10px;
     font-size: 0.8em;
   }

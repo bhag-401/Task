@@ -130,7 +130,7 @@ const Post = () => {
         </div>
       </div>
       <hr className="divider" />
-      {/* First Post */}
+      
       <div className={style.box}>
         <div className={style.header}>
           <h2>Category Hierarchy</h2>
@@ -164,10 +164,10 @@ const Post = () => {
         </div>
       </div>
 
-      {/* Divider */}
+     
       <hr className="divider" />
 
-      {/* Second Post */}
+      
       <div className={style.box}>
         <div className={style.header}>
           <h2>Hello world!</h2>

@@ -1,15 +1,15 @@
 .footer {
-    background-color: #111; /* Dark background */
-    color: #ccc; /* Light grey text */
-    text-align: center; /* Center the text */
+    background-color: #111; 
+    color: #ccc; 
+    text-align: center; 
     padding: 20px 0;
-    font-size: 14px; /* Text size */
+    font-size: 14px; 
    
   }
   
   .footer a {
-    color:blue; /* Link color */
-    text-decoration: none; /* No underline */
+    color:blue; 
+    text-decoration: none; 
   }
   
   .footer a:hover {

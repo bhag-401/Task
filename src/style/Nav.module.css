@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 30px;
-    padding-left: 40px; /* ensures 40px space from the left */
+    padding-left: 40px;
 }
 
 #Nav > h1 {
@@ -20,29 +20,29 @@
     line-height: 1;
     color: white;
     margin-bottom: 8px;
-    text-align: left; /* aligns text to the left */
+    text-align: left; 
 }
 
 #Nav > p {
     margin-top: 5px;
     font-size: 14px;
     color: #A3A3A3;
-    text-align: left; /* aligns paragraph to the left */
-    max-width: 600px; /* optional: controls paragraph width for readability */
+    text-align: left; 
+    max-width: 600px; 
 }
 
-/* Mobile responsive adjustments */
+
 @media (max-width: 600px) {
     #Nav {
-        padding-left: 20px; /* reduces left padding on smaller screens */
+        padding-left: 20px; 
     }
 
     #Nav > h1 {
-        font-size: 1.5rem; /* smaller font size for mobile screens */
+        font-size: 1.5rem; 
     }
 
     #Nav > p {
-        font-size: 13px; /* slightly smaller text for mobile */
-        max-width: 100%; /* allows the paragraph to take full width on mobile */
+        font-size: 13px; 
+        max-width: 100%; 
     }
 }
